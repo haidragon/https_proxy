@@ -165,7 +165,7 @@ func run(port string) {
 	}
 }
 
-func main() {
+func main() {    //-f /Users/haidragon/Downloads/mitm_proxy/config.ini -save /Users/haidragon/Downloads/mitm_proxy/out_file
 	log.SetOutput(os.Stdout)
 
 	var proxy_config_file string // 代理配置文件
